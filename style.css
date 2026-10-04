@@ -1,0 +1,15 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f81212;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.contenedor-cajas {
+  font-family: 'Times New Roman', Times, serif;
+  color:#f81212;
+}

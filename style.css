@@ -9,7 +9,19 @@
 
 }
 
-.contenedor-cajas {
-  font-family: 'Times New Roman', Times, serif;
-  color:#f81212;
+.contenedor-cajas{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 20px;
+  color: rgb(253, 25, 25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 100%;
+   padding: 20px;
+  font-size: 20px;
+  background-color: #fdfcfc;
+  border-radius: 10px;
+  border: 1px solid rgb(241, 1, 1);
+   box-sizing: border-box; 
+ margin-bottom: 50px; 
+
 }

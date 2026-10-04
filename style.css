@@ -17,11 +17,69 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    width: 100%;
    padding: 20px;
-  font-size: 20px;
+  font-size: 20px center;
   background-color: #fdfcfc;
   border-radius: 10px;
-  border: 1px solid rgb(241, 1, 1);
+  border: 5px solid rgb(241, 1, 1); 
    box-sizing: border-box; 
  margin-bottom: 50px; 
 
 }
+
+
+body {
+    background-image: url('monumental.jpg');
+      background-size: 100% ;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.contenedor-cajas12{
+    flex: wrap;
+    background-color: white;
+    padding: 20px;
+    border: 5px solid rgb(241, 1, 1);
+    border-radius: 10px;
+    text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 25, 25);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.imagen-caja img {
+  
+  width: 40%;
+    height: auto;
+    border-radius: 10px;
+ 
+}
+
+.btn{
+
+    text-decoration: none;
+    border: 10px solid rgb(224, 48, 48);
+    padding: 10px ;
+    border-radius: 5px;
+font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(224, 48, 48);
+    font-size: 20px ;
+    background-color: rgb(240, 234, 234);
+    flex-direction: row;
+    width: 10%;
+   align-items: center;
+
+   
+
+    }
+
+  .btn:hover {
+    background-color: rgb(224, 48, 48);
+    color: white;
+    transform: scale(1.06);
+    
+  }
+ .flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }

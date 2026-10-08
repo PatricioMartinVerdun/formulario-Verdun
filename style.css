@@ -36,14 +36,14 @@ body {
 .contenedor-cajas12{
     flex: wrap;
     background-color: white;
-    padding: 20px;
+    padding: 60px;
     border: 5px solid rgb(241, 1, 1);
     border-radius: 10px;
     text-align: center;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(253, 25, 25);
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 59px;
 }
 .imagen-caja img {
   
@@ -56,7 +56,7 @@ body {
 .btn{
 
     text-decoration: none;
-    border: 10px solid rgb(224, 48, 48);
+    border: 7px solid rgb(224, 48, 48);
     padding: 10px ;
     border-radius: 5px;
 font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -75,6 +75,7 @@ font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(224, 48, 48);
     color: white;
     transform: scale(1.06);
+    align-items: center;
     
   }
  .flex-item {
@@ -99,4 +100,14 @@ h4 {
    margin-bottom: 10px;
    color: rgb(10, 10, 10);
   
+}
+button {
+    background-color: rgb(255, 252, 252);
+    border: black 2px solid;
+    padding: 10px 20px;
+    font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+  
+
 }
